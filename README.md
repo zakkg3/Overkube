@@ -31,7 +31,7 @@ networking:
 
 At the same time will spawn N (workers.count) Kubevirt vm's using a jinja template wich reads from a configfile (so we can change workers size and way to deploy them)
 
-3- Once the control-plane is in placem, and the vms are up and running the operator will run a job (kopf.adopt) this job will use @asteven scripts to bootstrap the cluster using the kubeadm clusterconfiguration provided in the CRD
+3- Once the control-plane is in place, and the vms are up and running the operator will run a job (kopf.adopt) this job will use @asteven scripts to bootstrap the cluster using the kubeadm clusterconfiguration provided in the CRD
 
 4- Now, everithing is upm so the operator will update the crd, or create a secret with this info:
 
