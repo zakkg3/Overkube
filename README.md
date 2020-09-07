@@ -33,7 +33,7 @@ At the same time will spawn N (workers.count) Kubevirt vm's using a jinja templa
 
 3- Once the control-plane is in place, and the vms are up and running the operator will run a job (kopf.adopt) this job will use @asteven scripts to bootstrap the cluster using the kubeadm clusterconfiguration provided in the CRD
 
-4- Now, everithing is upm so the operator will update the crd, or create a secret with this info:
+4- Everithing is up so the operator updates the crd, or create a secret with this info:
 
 
 ```
@@ -43,7 +43,7 @@ status:
  client-key-data:
 ```
 
-With this we are ready configure kubectl and start using the Overkube.
+Now, we are ready configure kubectl and start using the Overkube.
 
 
 
