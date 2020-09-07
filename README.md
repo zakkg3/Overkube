@@ -43,7 +43,7 @@ status:
  client-key-data:
 ```
 
-So we can configure kubectl to operate this cluster.
+With this we are ready configure kubectl and start using the Overkube.
 
 
 
