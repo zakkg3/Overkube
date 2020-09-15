@@ -22,6 +22,14 @@ import (
 
 // EDIT THIS FILE!  THIS IS SCAFFOLDING FOR YOU TO OWN!
 // NOTE: json tags are required.  Any new fields you add must have json tags for the fields to be serialized.
+type workers struct {
+	// Size is the size of the memcached deployment
+	Size int32 `json:"workers"`
+}
+type controlPlaneEndpoint struct {
+	// Nodes are the names of the memcached pods
+	Nodes string `json:"controlPlaneEndpoint"`
+}
 
 // OverkubeSpec defines the desired state of Overkube
 type OverkubeSpec struct {
