@@ -1,0 +1,7 @@
+domain: my.domain
+layout: go.kubebuilder.io/v2
+projectName: overkube
+repo: github.com/zakkg3/Overkube
+version: 3-alpha
+plugins:
+  go.sdk.operatorframework.io/v2-alpha: {}
