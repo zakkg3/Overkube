@@ -11,6 +11,7 @@ Kind: OverKube
 apiVersion: ovkb.io/v1
 metadata:
   name: overcluster
+  namespace: overkube
 cluster-namespace: overk8s
 workers:
   count: 3
