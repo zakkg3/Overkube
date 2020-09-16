@@ -12,7 +12,7 @@ apiVersion: ovkb.io/v1
 metadata:
   name: overcluster
   namespace: overkube
-cluster-namespace: overk8s
+cluster-namespace: tenant1
 workers:
   count: 3
   memory: 4Gb
